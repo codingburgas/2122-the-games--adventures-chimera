@@ -1,3 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Press+Start+2P&display=swap');
+
 body {
-    background-color: #D4D4D6;
+    position: relative;
+    width: 737px;
+    height: 468px;
+
+    background: #A8A8A8;
+}
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 15%; 
+    width: 100%;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    
+    background: #010E12;
+    color: #ffffff;
+}
+div.icons
+{
+    position: relative;
+    width: 0%;
+    height: 0%;
+    left: 49.6%;
+    top: 25%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+nav a 
+{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 100%;
+
+    color: #000000;
+}
+.home
+{
+    position: absolute;
+    width: 77px;
+    height: 44px;
+    left: 393px;
+    top: 25px;
+    text-decoration: none;
+}
+.about_us 
+{
+    position: absolute;
+    width: 90px;
+    height: 28px;
+    left: 501px;
+    top: 25px;
+    text-decoration: none;
+}
+
+.feedback
+{
+    position: absolute;
+    width: 97px;
+    height: 28px;
+    left: 622px;
+    top: 25px;
+    text-decoration: none;
+}
+.logo
+{
+    position: absolute;
+    width: 115px;
+    height: 48px;
+    left: 12px;
+    top: 16px;
+
+    background: #ffffff;
 }

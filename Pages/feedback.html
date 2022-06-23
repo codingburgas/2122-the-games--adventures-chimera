@@ -4,11 +4,55 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Style/index.css">
+    <link rel="stylesheet" href="../Style/feedback.css">
     <title>Feedback</title>
 </head>
 <body>
-    <a href="../index.html">Home</a>
-    <a href="about_us.html">About us</a>
-    <a href="feedback.html">Feedback</a>
+    <nav>
+        <a href="../index.html" class="home">Home</a>
+        <a href="about_us.html" class="about_us">About us</a>
+        <a href="feedback.html" class="feedback">Feedback</a>
+    </nav>
+    <div class="root">
+        <div class="body_feedback">
+            <section>
+                <div class="container2">
+                    <form action="mailto: 19@codingburgas.bg" method="POST" > 
+                        <div class="form-group">
+                            <label for="FullName"></label>
+                            <input type="text" id="FullName" name="FullName" placeholder="Full Name">
+                        </div>    
+                        <div class="form-group">     
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="massage"></label>
+                            <textarea name="massage" placeholder = "Message..." id="massage" cols="30" rows="10"></textarea>
+                        </div>                            
+                        <button type="submit">Submit</button>                       
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--<footer>
+        <p> Our Social Media:</p>
+        <div class="icons">
+            <a href="https://www.youtube.com" target="_blank" title="Youtube">
+                <img src="../Images/youtube.png" alt="YouTube">
+            </a>
+            <div class="github">
+                <a href="https://github.com/codingburgas/2122-the-games--adventures-chimera" target="_blank" title="GitHub">
+                    <img src="../Images/github.png" alt="Github">
+            </div>
+            <a href="https://twitter.com" target="_blank" title="Twitter">
+                <img src="../Images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.facebook.com/codingburgas/" target="_blank" title="Facebook">
+                <img src="../Images/facebook.png" alt="Facebook">
+            </a>
+        </div>
+    </footer>-->
 </body>
 </html>
