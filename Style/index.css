@@ -94,3 +94,11 @@ nav a
 .icon {
     margin-left: 10px;
 }
+.home_icon
+{
+    position: absolute;
+    width: 77px;
+    height: 44px;
+    left: 393px;
+    top: 25px;
+}

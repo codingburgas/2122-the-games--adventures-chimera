@@ -6,7 +6,7 @@
     width: 1016px;
     height: 470px;
     left: 230px;
-    top: 80px;
+    top: 100px;
 
     background: #9AC899;
     border: 3px solid #01141B;
@@ -16,10 +16,76 @@
 .game_name
 {
     position: absolute;
-    width: 333.15px;
-    height: 126.92px;
-    left: 139.36px;
-    top: 212.18px;
+    width: 462px;
+    height: 67.51px;
+    left: 36%;
+    
+    font-size: 50px;
+}
+.about_game
+{
+    box-sizing: border-box;
 
-    background: #D9D9D9;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 680px;
+    bottom: 221.11px;
+
+    background: #01141B;
+    border: 1px solid #01141B;
+    box-shadow: 5px 6px 7px rgba(1, 20, 27, 0.25);
+    border-radius: 11px;
+    text-align: center;
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 680px;
+    top: 280px;
+
+    background: #01141B;
+    border: 1px solid #01141B;
+    box-shadow: 2px 3px 4px rgba(1, 20, 27, 0.25);
+    border-radius: 11px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game_info
+{
+    position: absolute;
+    width: 333.15px;
+    height: 100.92px;
+    left: 100px;
+    top: 150px;
+
+    font-size: 25px;
+    display: flex;
 }
