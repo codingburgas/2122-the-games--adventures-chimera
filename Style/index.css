@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
 
 body {
     position: relative;
@@ -59,6 +59,7 @@ nav a
     left: 393px;
     top: 25px;
     text-decoration: none;
+    
 }
 .about_us 
 {
