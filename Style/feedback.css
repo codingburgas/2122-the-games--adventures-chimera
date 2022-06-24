@@ -17,7 +17,7 @@
 {
   position: absolute;
   width: 412px;
-  height: 464px;
+  height: 467.5px;/*perfection*/
   left: 831px;
   top: 100px;
   
@@ -52,32 +52,35 @@
   }
   
   .form-group {
-    width: 2559x;
+    width: 25590x;
     margin-top: 2.18vh;
     font-size: 2.18vh;
   }
   
   .form-group input, .form-group textarea {
-    width: 269px;
+    box-sizing: border-box;
+    width: 460px;
     padding: 5px;
     font-size: 1.94vh;
+    border-radius: 8px;
     border: 1px solid rgba(128, 128, 128, 0.199);
     margin-top: 0.27vw;
   }
     
   textarea {
-    resize: vertical;
+    resize: none;
   }
   
   button[type="submit"] {
-    width: 450px;
+    width: 460px;
     border: none;
     outline: none;
     padding: 1.1vw;
     font-size: 2.6vh;
     border-radius: 8px;
     font-family: "Montserrat";
-    color: rgb(27, 166, 247);
+    color: #ffffff;
+    background-color: #000000;
     text-align: center;
     cursor: pointer;
     margin-top: 1.08vh;
@@ -89,3 +92,10 @@
     background-color: #474747;
     transition: 0.5s;
   }
+.chimera{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 6px;
+    top: 5px;
+}
