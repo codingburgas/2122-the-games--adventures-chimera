@@ -39,49 +39,34 @@ div.icons
     justify-content: center;
 }
 
-nav a 
-{
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    margin-left: 100%;
-
-    color: #000000;
+.nav {
+	position: relative;
+	margin-left: 110%;
+    width:100%;
 }
-.home
-{
-    position: absolute;
-    width: 77px;
-    height: 44px;
-    left: 393px;
-    top: 25px;
-    text-decoration: none;
+.nav a {
+	color: black;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 11px;
     
 }
-.about_us 
-{
-    position: absolute;
-    width: 90px;
-    height: 28px;
-    left: 501px;
-    top: 25px;
-    text-decoration: none;
+.nav a:hover {
+	background-color: #9AC899;
+	color: #010E12;
+    border: 3px solid #01141B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.feedback
-{
-    position: absolute;
-    width: 97px;
-    height: 28px;
-    left: 622px;
-    top: 25px;
-    text-decoration: none;
+
+.photo {
+    position: relative;
+    top:10px;
 }
-.logo
-{
+
+.logo{
     position: absolute;
     width: 115px;
     height: 48px;
@@ -92,14 +77,15 @@ nav a
 #github_icon {
     height: 60px;
 }
+
 .icon {
     margin-left: 10px;
 }
-.home_icon
-{
+
+.chimera{
     position: absolute;
-    width: 77px;
-    height: 44px;
-    left: 393px;
-    top: 25px;
+    width: 115px;
+    height: 48px;
+    left: 12px;
+    top: 16px;
 }

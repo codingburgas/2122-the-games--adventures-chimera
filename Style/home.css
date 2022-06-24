@@ -4,9 +4,9 @@
 
     position: absolute;
     width: 1016px;
-    height: 470px;
+    height: 450px;
     left: 230px;
-    top: 100px;
+    top: 130px;
 
     background: #9AC899;
     border: 3px solid #01141B;
@@ -90,4 +90,20 @@
     font-size: 25px;
     display: flex;
     font-family: 'Source Code Pro', monospace;
+}
+.chimera
+{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 6px;
+    top: 5px;
+}
+.about_game:hover
+{
+    background: #205A4A
+}
+.download:hover
+{
+    background: #205A4A
 }
