@@ -171,6 +171,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\game\src\screens.h" />
+    <ClInclude Include="movement.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="raylib.vcxproj">
@@ -178,6 +179,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="movement.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
