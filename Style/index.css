@@ -32,7 +32,7 @@ div.icons
     width: 0%;
     height: 0%;
     margin-left: 10px;
-    left: 49.6%;
+    left: 49%;
     top: 25%;
     display: flex;
     align-items: center; 
@@ -41,7 +41,7 @@ div.icons
 
 .nav {
 	position: relative;
-	margin-left: 110%;
+	margin-left: 130%;
     width:100%;
 }
 .nav a {
@@ -69,17 +69,18 @@ div.icons
 .logo{
     position: absolute;
     width: 115px;
-    height: 48px;
+    height: 38px;
     left: 12px;
     top: 16px;
     background: #ffffff;
 }
 #github_icon {
-    height: 60px;
+    height: 45px;
 }
 
 .icon {
     margin-left: 10px;
+    height: 45px;
 }
 
 .chimera{
@@ -88,4 +89,15 @@ div.icons
     height: 48px;
     left: 12px;
     top: 16px;
+}
+
+@media (max-width: 880px) {
+
+    .footer{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+        margin-left: 0;
+    }
 }

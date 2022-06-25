@@ -25,6 +25,32 @@
   border-radius: 8px;
 }
 
+.text
+{
+  position: absolute;
+  width: 360px;
+  height: 46px;
+  left: 40px;
+  top: 300px;
+  
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 41px;
+  
+  color: #010E12;
+  
+}
+.image
+{
+  position: absolute;
+  width: 250px;
+  height: 240px;
+  left: 80px;
+  top: 60px;
+}
+
 .root{
     padding: 0;
     margin: 0;
