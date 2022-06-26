@@ -1,3 +1,4 @@
+/*sets up the box for the text*/
 .info
 {
     box-sizing: border-box;
@@ -13,6 +14,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
 }
+/*sets up specific style for the game name, game information and the two buttons*/
 .game_name
 {
     position: absolute;
@@ -82,15 +84,16 @@
 .game_info
 {
     position: absolute;
-    width: 333.15px;
-    height: 100.92px;
+    width: 370.15px;
+    height: 130.92px;
     left: 100px;
-    top: 120px;
+    top: 130px;
 
     font-size: 25px;
     display: flex;
     font-family: 'Source Code Pro', monospace;
 }
+/*sets the style for the logo*/
 .chimera
 {
     position: absolute;
@@ -99,6 +102,7 @@
     left: 6px;
     top: 5px;
 }
+/*sets up the hover effects for the buttons*/
 .about_game:hover
 {
     background: #205A4A

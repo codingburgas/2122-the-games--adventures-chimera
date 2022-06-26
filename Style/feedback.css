@@ -1,3 +1,4 @@
+/*sets up the box for the form*/
 .info
 {
     box-sizing: border-box;
@@ -13,11 +14,12 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
 }
+/*sets up the other half of the box*/
 .rate
 {
   position: absolute;
   width: 412px;
-  height: 467.5px;/*perfection*/
+  height: 467.5px;
   left: 831px;
   top: 100px;
   
@@ -50,17 +52,20 @@
   left: 80px;
   top: 60px;
 }
-
-.root{
+/*sets up the style for the feedback form*/
+.root
+  {
     padding: 0;
     margin: 0;
   }
   
-  .body_feedback{
+  .body_feedback
+  {
     box-sizing: border-box;
   }
   
-  section {
+  section 
+  {
     height: 100vh;
     width: 2559px;
     display: flex;
@@ -69,7 +74,8 @@
     flex-direction: column;
   }
   
-  .container2 {
+  .container2 
+  {
     position: absolute;
     width: 2559px;
     height: 188px;
@@ -77,13 +83,15 @@
     top: 50px;
   }
   
-  .form-group {
+  .form-group 
+  {
     width: 25590x;
     margin-top: 2.18vh;
     font-size: 2.18vh;
   }
   
-  .form-group input, .form-group textarea {
+  .form-group input, .form-group textarea 
+  {
     box-sizing: border-box;
     width: 460px;
     padding: 5px;
@@ -93,11 +101,14 @@
     margin-top: 0.27vw;
   }
     
-  textarea {
+  textarea 
+  {
     resize: none;
   }
-  
-  button[type="submit"] {
+
+/*sets up the style and hover effect for the submit button*/  
+  button[type="submit"] 
+  {
     width: 460px;
     border: none;
     outline: none;
@@ -113,12 +124,16 @@
     transition: 0.3s ease;
   }
   
-  button[type="submit"]:hover {
+  button[type="submit"]:hover 
+  {
     color: white;
     background-color: #474747;
     transition: 0.5s;
   }
-.chimera{
+
+/*sets up the style for the website's logo*/  
+.chimera
+{
     position: absolute;
     width: 200px;
     height: 100px;

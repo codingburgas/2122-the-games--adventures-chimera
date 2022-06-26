@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
+
+/*sets up the style for the website's logo*/  
 .chimera
 {
     position: absolute;
@@ -7,7 +9,7 @@
     left: 6px;
     top: 5px;
 }
-
+/*sets up the style of the photos*/
 .HPKovachev19
 {
     position: relative;
@@ -120,7 +122,7 @@
     left: 1150px;
     top: 350px;
 }
-
+/*sets the hover effect for the photos*/
 .flip-card {
     background-color: transparent;
     width: 196px;
