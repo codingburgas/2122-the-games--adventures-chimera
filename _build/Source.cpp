@@ -17,6 +17,8 @@ int main(void)
     int frame = 0;
     int maxFrames = (int)(mickey.width / (int)frameWidth);
     Rectangle frameChange = { (frameWidth * frame), 0, frameWidth, (float)mickey.height };
+    bool jump = 0;
+    int jumpTimer = 0;
 
     Texture2D map = LoadTexture("../resources/map.png");
     float mapFrameWidth = (float)(map.width / 12);
@@ -24,6 +26,7 @@ int main(void)
     while (!WindowShouldClose())
     {
         mickeyWalking(frameWidth, positionMickeyX, time, frame, maxFrames, frameChange);
+        mickeyJumping(positionMickeyY, jump, jumpTimer);
 
         BeginDrawing();
 

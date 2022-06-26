@@ -26,3 +26,29 @@ void mickeyWalking(float &frameWidth, float &x, float &time, int &frame, int &ma
 		animation(time, frame, maxFrames, frameChange, frameWidth);
 	}
 }
+
+void mickeyJumping(float& y, bool& jump, int& jumpTimer)
+{
+	if (IsKeyPressed(KEY_W))
+	{
+		jump = 1;
+	}
+	if (jump)
+	{
+		jumpTimer += 1;
+		if (jumpTimer < 90)
+		{
+			y -= 2;
+		}
+		else
+		{
+			y += 2;
+		}
+	}
+	if (jumpTimer >= 180)
+	{
+		jumpTimer = 0;
+		jump = 0;
+		y = 628;
+	}
+}
