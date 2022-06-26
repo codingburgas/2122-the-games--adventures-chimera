@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
 
-/*sets up the style for the website's logo*/  
+/*Sets up the style for the website's logo*/  
 .chimera{
     position: absolute;
     width: 200px;
@@ -9,7 +9,7 @@
     top: 5px;
 }
 
-/*sets up the box for the game's information*/  
+/*Sets up the box for the game's information*/  
 .information
 {
     box-sizing: border-box;
@@ -27,7 +27,7 @@
 
     font-family: 'Source Code Pro', monospace;
 }
-/*sets up the style for the game's image*/  
+/*Sets up the style for the game's image*/  
 .game_image
 {
     position: absolute;

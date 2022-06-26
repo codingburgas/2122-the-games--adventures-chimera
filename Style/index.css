@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
 
-/*sets up the style for the website's logo*/
+/*Sets up the style for the website's logo*/
 .chimera{
     position: absolute;
     width: 115px;
@@ -10,7 +10,7 @@
 }
 
 
-/*changes the website's background*/
+/*Changes the website's background*/
 body {
     position: relative;
     width: 737px;
@@ -20,7 +20,7 @@ body {
     background: #A8A8A8;
 }
 
-/*sets up the style for the footer and the icons*/
+/*Sets up the style for the footer and the icons*/
 footer
 {
     position: fixed;
@@ -51,7 +51,7 @@ div.icons
     align-items: center; 
     justify-content: center;
 }
-/*sets up the style for the navigation bar*/
+/*Sets up the style for the navigation bar*/
 .nav {
 	position: relative;
 	margin-left: 130%;
@@ -67,7 +67,7 @@ div.icons
 	border-radius: 11px;
     
 }
-/*sets up the hover effect for the categories*/
+/*Sets up the hover effect for the categories*/
 .nav a:hover {
 	background-color: #9AC899;
 	color: #010E12;
@@ -75,12 +75,12 @@ div.icons
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/*sets up the icons next to the text in the navigation bar*/
+/*Sets up the icons next to the text in the navigation bar*/
 .photo {
     position: relative;
     top:10px;
 }
-/*sets up the style for the footer icons*/
+/*Sets up the style for the footer icons*/
 #github_icon {
     height: 45px;
 }
