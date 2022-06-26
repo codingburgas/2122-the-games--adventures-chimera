@@ -1,5 +1,6 @@
 #include "movement.h"
 
+//Displays Mickey Walking Animation
 void animation(float& time, int& frame, int& maxFrames, Rectangle& frameChange, float& frameWidth)
 {
 	time += GetFrameTime();
@@ -12,9 +13,10 @@ void animation(float& time, int& frame, int& maxFrames, Rectangle& frameChange, 
 	frameChange.x = frameWidth * frame;
 }
 
+// Walking Mechanic
 void mickeyWalking(float& frameWidth, float& x, float& time, int& frame, int& maxFrames, Rectangle& frameChange)
 {
-
+	//Either A or D pressed walking animation displays
 	if (IsKeyDown(KEY_D))
 	{
 		animation(time, frame, maxFrames, frameChange, frameWidth);
@@ -25,12 +27,15 @@ void mickeyWalking(float& frameWidth, float& x, float& time, int& frame, int& ma
 	}
 }
 
+// Jumping Mechanic
 void mickeyJumping(float& y, bool& jump, int& jumpTimer)
 {
 	if (IsKeyPressed(KEY_W))
 	{
 		jump = 1;
 	}
+
+	//Triggers Jumping When W Is Pressed
 	if (jump)
 	{
 		jumpTimer += 1;
@@ -43,6 +48,8 @@ void mickeyJumping(float& y, bool& jump, int& jumpTimer)
 			y += 5.5;
 		}
 	}
+
+	// Goes Intial Position
 	if (jumpTimer >= 90)
 	{
 		jumpTimer = 0;
@@ -51,9 +58,11 @@ void mickeyJumping(float& y, bool& jump, int& jumpTimer)
 	}
 }
 
+// Background Movement Mechanic
 void backgroundMovement(Texture2D &map, float &scrollingBack)
 {
-	if (IsKeyDown(KEY_D) && (scrollingBack >= -11310.0f && scrollingBack <= 20.0f))
+	//Moves The Background And Prevents Mickey From Going To Far To The Right
+	if (IsKeyDown(KEY_D) && (scrollingBack >= -10570.0f && scrollingBack <= 20.0f))
 	{
 		scrollingBack -= 10.0f;
 		if (scrollingBack <= -map.width * 2)
@@ -61,7 +70,9 @@ void backgroundMovement(Texture2D &map, float &scrollingBack)
 			scrollingBack = 0;
 		}
 	}
-	if (IsKeyDown(KEY_A) && (scrollingBack <= 10.0f && scrollingBack >= -11320.0f))
+
+	////Moves The Background And Prevents Mickey From Going To Far To The Left
+	if (IsKeyDown(KEY_A) && (scrollingBack <= 10.0f && scrollingBack >= -10570.0f))
 	{
 		scrollingBack += 10.0f;
 		if (scrollingBack <= -map.width * 2)
