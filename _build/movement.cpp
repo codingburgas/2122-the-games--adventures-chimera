@@ -36,16 +36,16 @@ void mickeyJumping(float& y, bool& jump, int& jumpTimer)
 	if (jump)
 	{
 		jumpTimer += 1;
-		if (jumpTimer < 90)
+		if (jumpTimer < 45)
 		{
-			y -= 2;
+			y -= 5.5;
 		}
 		else
 		{
-			y += 2;
+			y += 5.5;
 		}
 	}
-	if (jumpTimer >= 180)
+	if (jumpTimer >= 90)
 	{
 		jumpTimer = 0;
 		jump = 0;
