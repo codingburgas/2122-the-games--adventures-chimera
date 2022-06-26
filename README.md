@@ -52,4 +52,5 @@ Open the .sln file and run the project!
 
 ## 📋 Presentation and Documentation <a name="documentation"></a>
 - [Presentation](https://github.com/codingburgas/2122-the-games--adventures-chimera/tree/main/Documents)
+- [QA Documentation] (https://github.com/codingburgas/2122-the-games--adventures-chimera/tree/main/Documents)
 
