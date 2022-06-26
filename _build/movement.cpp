@@ -12,17 +12,15 @@ void animation(float& time, int& frame, int& maxFrames, Rectangle& frameChange, 
 	frameChange.x = frameWidth * frame;
 }
 
-void mickeyWalking(float &frameWidth, float &x, float &time, int &frame, int &maxFrames, Rectangle &frameChange)
+void mickeyWalking(float& frameWidth, float& x, float& time, int& frame, int& maxFrames, Rectangle& frameChange)
 {
 
 	if (IsKeyDown(KEY_D))
 	{
-		x += GetFrameTime() * 250;
 		animation(time, frame, maxFrames, frameChange, frameWidth);
 	}
 	if (IsKeyDown(KEY_A))
 	{
-		x -= GetFrameTime() * 250;
 		animation(time, frame, maxFrames, frameChange, frameWidth);
 	}
 }
