@@ -50,3 +50,23 @@ void mickeyJumping(float& y, bool& jump, int& jumpTimer)
 		y = 628;
 	}
 }
+
+void backgroundMovement(Texture2D &map, float &scrollingBack)
+{
+	if (IsKeyDown(KEY_D) && (scrollingBack >= -11310.0f && scrollingBack <= 20.0f))
+	{
+		scrollingBack -= 10.0f;
+		if (scrollingBack <= -map.width * 2)
+		{
+			scrollingBack = 0;
+		}
+	}
+	if (IsKeyDown(KEY_A) && (scrollingBack <= 10.0f && scrollingBack >= -11320.0f))
+	{
+		scrollingBack += 10.0f;
+		if (scrollingBack <= -map.width * 2)
+		{
+			scrollingBack = 0;
+		}
+	}
+}
