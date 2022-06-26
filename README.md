@@ -14,23 +14,32 @@
 ## 📖 Description <a name="description"></a>
 *Mickey is a classical gameboy styled game. It's story takes place in a world where dog shelters make the unwanted animals into delivery employees. Our main character Mickey, has forgot his old owner, but he gets his memory back after exploring the old town he used to be in while working. In the game you have to go through some obstacles and deliver packages to every client. That's where he meets him.*
 
-## Getting Started <a name="start"></a>
+## 🔧 Getting Started <a name="start"></a>
 *These instructions will get you a copy of the project up and running on your local machine.*
+
+**Download from website:**
+
+1. Open home page
+
+2. Click Download button
+
+3. Unzip the file
+
+4. Prerequisites - *Visual Studio with C++ development installed.*
+
+5. Open the .sln file and run the project!
 
 **Compile from source:**
 
-1.Prerequisites - 
-*Visual Studio with C++ development and Git installed.*
+1. Prerequisites - *Visual Studio with C++ development and Git installed.*
 
-2.Installing
-
-Clone the repo
+2. Clone the repo
 
 ```cpp
 git clone https://github.com/codingburgas/2122-the-games--adventures-chimera.git
 ```
 
-Open the .sln file and run the project!
+3. Open the .sln file and run the project!
 
 ## 💻 Built Using <a name="built_using"></a>
 - [Visual Studio](https://visualstudio.microsoft.com/) - Application
@@ -52,5 +61,5 @@ Open the .sln file and run the project!
 
 ## 📋 Presentation and Documentation <a name="documentation"></a>
 - [Presentation](https://github.com/codingburgas/2122-the-games--adventures-chimera/tree/main/Documents)
-- [QA Documentation] (https://github.com/codingburgas/2122-the-games--adventures-chimera/tree/main/Documents)
-
+- [QA Documentation](https://github.com/codingburgas/2122-the-games--adventures-chimera/tree/main/Documents)
+- [Documentation](https://github.com/codingburgas/2122-the-games--adventures-chimera/tree/main/Documents)
