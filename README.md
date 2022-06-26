@@ -45,9 +45,9 @@ Open the .sln file and run the project!
 - [Hristo Kovachev](https://github.com/HPKovachev19) - Scrum Trainer
 - [Yoan Gavrilov](https://github.com/YAGavrilov19) - QA Engineer
 - [Konstantin Dinev](https://github.com/KKDinev20) - Back-End Developer
-- [Hristiqn Petrov](https://github.com/HMPetrov20) - Back-End Developer
-- [Galq Ivanova](https://github.com/GAIvanova20) - Back-End Developer
-- [Valeriq Chavdarova](https://github.com/VDChavdarova21) - Front-End Developer
+- [Hristiyan Petrov](https://github.com/HMPetrov20) - Back-End Developer
+- [Galya Ivanova](https://github.com/GAIvanova20) - Back-End Developer
+- [Valeria Chavdarova](https://github.com/VDChavdarova21) - Front-End Developer
 - [Teodora Lozeva](https://github.com/TLLozeva21) - Front-End Developer
 
 ## 📋 Presentation and Documentation <a name="documentation"></a>
