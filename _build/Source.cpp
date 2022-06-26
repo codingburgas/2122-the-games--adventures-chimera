@@ -30,15 +30,21 @@ int main(void)
         mickeyWalking(frameWidth, positionMickeyX, time, frame, maxFrames, frameChange);
         mickeyJumping(positionMickeyY, jump, jumpTimer);
         
-        if (IsKeyDown(KEY_D))
+        if (IsKeyDown(KEY_D) && (scrollingBack >= -11310.0f && scrollingBack <= 20.0f))
         {
            scrollingBack -= 10.0f;
-           if (scrollingBack <= -map.width * 2) scrollingBack = 0;
+           if (scrollingBack <= -map.width * 2)
+           {
+               scrollingBack = 0;
+           }
         }
-        if (IsKeyDown(KEY_A))
+        if (IsKeyDown(KEY_A) && (scrollingBack <= 10.0f && scrollingBack >= -11320.0f))
         {
             scrollingBack += 10.0f;
-            if (scrollingBack <= -map.width * 2) scrollingBack = 0;
+            if (scrollingBack <= -map.width * 2)
+            {
+                scrollingBack = 0;
+            }
         }
         BeginDrawing();
 
