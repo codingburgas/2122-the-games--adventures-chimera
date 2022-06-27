@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Loads the styles and the icon-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Images/chimera_website_logo.png">
+    <link rel="stylesheet" href="../Style/index.css">
+    <link rel="stylesheet" href="../Style/feedback.css">
+    <title>Feedback</title>
+</head>
+<body>
+    <img src="../Images/chimera_website_logo.png" alt = "logo" class = "chimera">
+    <!--Loads the navigation bar-->
+    <nav class="nav">
+        <a href="../index.html">
+            <img src="../Images/home_icon.png" alt="Home" class="photo"> Home
+        </a>
+        <a href="about_us.html">
+            <img src="../Images/about_us.png" alt="About us" class="photo">About us
+        </a>
+        <a href="feedback.html" class="active">
+            <img src="../Images/feedback.png" alt="Feedback" class="photo">Feedback
+        </a>
+    </nav>
+    <!--Loads the feedback form-->
+    <div class = "info">
+        <div class="root">
+            <div class="body_feedback">
+                <section>
+                    <div class="container2">
+                        <form action="mailto: 19@codingburgas.bg" method="POST" > 
+                            <div class="form-group">
+                                <label for="FullName"></label>
+                                <input type="text" id="FullName" name="FullName" placeholder="Full Name" required>
+                            </div>    
+                            <div class="form-group">     
+                                <label for="email"></label>
+                                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="massage"></label>
+                                <textarea name="massage" placeholder = "Message..." id="massage" cols="30" rows="7" required></textarea>
+                            </div>                            
+                            <button type="submit">Submit</button>                       
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+<!--Loads the "Rate us" part of the website-->    
+<div class = "rate">
+    <img src="../Images/rate_png" alt="Rate" class = "image">
+    <h1 class = "text">Rate us!</h1>
+</div>
+<!--Loads the footer-->
+    <footer>
+        <p> Our Social Media:</p>
+        <div class="icons">
+            <a href="https://www.youtube.com" target="_blank" title="Youtube">
+                <img src="../Images/youtube.png" alt="YouTube" class = "icon">
+            </a>
+                <a href="https://github.com/codingburgas/2122-the-games--adventures-chimera" target="_blank" title="GitHub">
+                    <img src="../Images/github.png" alt="Github" id="github_icon" class = "icon">
+            <a href="https://twitter.com" target="_blank" title="Twitter">
+                <img src="../Images/twitter.png" alt="Twitter" class = "icon">
+            </a>
+            <a href="https://www.facebook.com/codingburgas/" target="_blank" title="Facebook">
+                <img src="../Images/facebook.png" alt="Facebook" class = "icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

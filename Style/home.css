@@ -1,0 +1,113 @@
+/*Sets up the box for the text*/
+.info
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1016px;
+    height: 470px;
+    left: 230px;
+    top: 100px;
+
+    background: #9AC899;
+    border: 3px solid #01141B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+}
+/*Sets up specific style for the game name, game information and the two buttons*/
+.game_name
+{
+    position: absolute;
+    width: 362px;
+    height: 35px;
+    left: 36%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 55px;
+    
+}
+.about_game
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 680px;
+    bottom: 221.11px;
+
+    background: #01141B;
+    border: 1px solid #01141B;
+    box-shadow: 5px 6px 7px rgba(1, 20, 27, 0.25);
+    border-radius: 11px;
+    text-align: center;
+    text-decoration: none;
+
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 680px;
+    top: 280px;
+
+    background: #01141B;
+    border: 1px solid #01141B;
+    box-shadow: 2px 3px 4px rgba(1, 20, 27, 0.25);
+    border-radius: 11px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game_info
+{
+    position: absolute;
+    width: 370.15px;
+    height: 130.92px;
+    left: 100px;
+    top: 130px;
+
+    font-size: 25px;
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+}
+/*Sets the style for the logo*/
+.chimera
+{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 6px;
+    top: 5px;
+}
+/*Sets up the hover effects for the buttons*/
+.about_game:hover
+{
+    background: #205A4A
+}
+.download:hover
+{
+    background: #205A4A
+}

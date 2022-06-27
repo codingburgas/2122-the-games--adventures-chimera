@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
+
+/*Sets up the style for the website's logo*/
+.chimera{
+    position: absolute;
+    width: 115px;
+    height: 48px;
+    left: 12px;
+    top: 16px;
+}
+
+
+/*Changes the website's background*/
+body {
+    position: relative;
+    width: 737px;
+    height: 468px;
+    overflow: hidden;
+
+    background: #A8A8A8;
+}
+
+/*Sets up the style for the footer and the icons*/
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 15%; 
+    width: 100%;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    
+    background: #010E12;
+    color: #ffffff;
+}
+div.icons
+{
+    position: relative;
+    width: 0%;
+    height: 0%;
+    margin-left: 10px;
+    left: 49%;
+    top: 25%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+/*Sets up the style for the navigation bar*/
+.nav {
+	position: relative;
+	margin-left: 130%;
+    width:100%;
+}
+.nav a {
+	color: black;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+	border-radius: 11px;
+    
+}
+/*Sets up the hover effect for the categories*/
+.nav a:hover {
+	background-color: #9AC899;
+	color: #010E12;
+    border: 3px solid #01141B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Sets up the icons next to the text in the navigation bar*/
+.photo {
+    position: relative;
+    top:10px;
+}
+/*Sets up the style for the footer icons*/
+#github_icon {
+    height: 45px;
+}
+
+.icon {
+    margin-left: 10px;
+    height: 45px;
+}
